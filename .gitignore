@@ -26,6 +26,12 @@
 *.a
 *.lib
 
+# Ignore CMake files
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
 *.cmake linguist-language=C++
 
 # Executables
